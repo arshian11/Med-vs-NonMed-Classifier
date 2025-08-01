@@ -1,8 +1,8 @@
 # config.py - Configuration settings
 
 # Model paths
-CNN_MODEL_PATH = "checkpoints/best_cnn_model_ver_1.pth"
-VIT_MODEL_PATH = "checkpoints/best_vit_model_ver_1.pth"
+CNN_MODEL_PATH = "checkpoints/cnn_model.pth"
+VIT_MODEL_PATH = "checkpoints/vit_model.pth"
 
 # Model selection - choose which model to use
 MODEL_TYPE = "cnn"  # Options: "cnn" or "vit"
