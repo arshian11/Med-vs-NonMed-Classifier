@@ -92,7 +92,22 @@ cd medical-image-classifier
 pip install -r requirements.txt
 ```
 
-### **3. Run the Script**
+### **3. Install Poppler (Required for PDF image extraction)**
+Poppler is a system dependency used by libraries like PyMuPDF and pdf2image. You need to install it manually depending on your operating system:
+
+📦 Windows
+Download from: [Poppler for Windows](https://github.com/oschwartz10612/poppler-windows/releases/)
+
+Extract the zip file (e.g., to C:\poppler)
+
+Add the path to the bin folder (e.g., C:\poppler\bin) to your System Environment Variables > PATH
+
+✅ To verify installation:
+
+```bash
+pdftoppm -v
+```
+### **4. Run the Script**
 From a URL
 ```bash
 python main.py --url https://radiopaedia.org/ --model-type cnn
