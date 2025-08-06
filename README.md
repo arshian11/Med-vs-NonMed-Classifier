@@ -64,8 +64,8 @@ The classification task was approached using **two model architectures**:
   - Accuracy: **0.99662**
 
 📊 **Confusion Matrices**:  
-- [ResNet18 Confusion Matrix](link-to-resnet18-confusion-matrix.png)  
-- [ViT Confusion Matrix](link-to-vit-confusion-matrix.png)
+- [ResNet18 Confusion Matrix](https://github.com/arshian11/Med-vs-NonMed-Classifier/blob/main/asset/Screenshot%202025-07-30%20210918.png)  
+- [ViT Confusion Matrix](https://github.com/arshian11/Med-vs-NonMed-Classifier/blob/main/asset/Screenshot%202025-07-30%20210954.png)
 
 ---
 
