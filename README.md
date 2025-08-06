@@ -83,7 +83,7 @@ The classification task was approached using **two model architectures**:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/medical-image-classifier.git
+git clone https://github.com/arshian11/Med-vs-NonMed-Classifier.git
 cd medical-image-classifier
 ```
 
